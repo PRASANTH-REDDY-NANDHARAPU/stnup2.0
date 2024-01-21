@@ -1,3 +1,4 @@
+import "./utils/style.css"
 const Payment=()=>{
     return<div>
        <h1>Payment</h1>

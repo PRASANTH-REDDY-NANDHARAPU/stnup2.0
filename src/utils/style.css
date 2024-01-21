@@ -75,7 +75,14 @@ body{
     font-family: bolder;
     color: white;
     background-color: blue;
-    
+}
+.bi-x-lg{
+  font-size: 22px;
+    padding: 1px 10px;
+    border: none;
+    font-family: bolder;
+    color: white;
+    background-color: blue;
 }
 
 .video-pos-rel {
@@ -207,16 +214,34 @@ body{
   .dash-btn{
      text-align: start;
      border: none;
+     font-size:15px;
+     font-weight: bolder;
+     width:100%;
+     /* background-color: red; */
+     border-radius: 5px;
+     padding: 10px 10px;
+     cursor: pointer;
+     box-sizing: border-box;
+     background-color: rgba(0, 0, 255, 0);
+     color: white;
+
+  }
+  .dash-items{
+    text-align: start;
+     border: none;
      margin: 10px;
      font-size:15px;
      font-weight: bolder;
      border-radius: 5px;
-     padding: 10px 10px;
      cursor: pointer;
      background-color: rgba(0, 0, 255, 0.295);
      color: white;
+     box-sizing: border-box;
   }
-  .dash-btn:hover{
+  .dash-btn:focus{
+    background-color: blueviolet;
+  }
+  .dash-items:focus{
     background-color: blueviolet;
   }
   .bottom{
@@ -230,7 +255,7 @@ body{
   .mb-ico-items>i{
     padding: 0;
     margin: 0;
-    font-size: 25px;
+    font-size: 20px;
   }
   .mb-ico-items>p{
     padding: 0;
@@ -238,11 +263,6 @@ body{
     font-size: 15px;
   }
   .mb-nav{
-    background-color: rgb(0, 0, 62);
-    color: white;
-    padding: 10px;
-    border: 1px solid grey;
-    margin: 10px;
     display: none;
   }
   .show{
@@ -292,7 +312,8 @@ body{
       width:100%;
       background-color: rgb(0, 0, 62);
       color: white;
-      padding: 10px 0px;
+      padding-top: 1px;
+      padding-bottom: 5px;
       z-index: 10;
      }
      .w-80{
@@ -302,15 +323,42 @@ body{
     }
     .mb-nav{
       display:block;
-
       background-color: rgb(0, 0, 62);
       color: white;
-      padding: 10px;
-      border: 1px solid grey;
-      margin: 10px;
+      padding:2px;
     }
-    .bottom>div:focus{
-      
+    .mb-btm-items{
+      text-decoration: none;
+      color:white;
+      border-top: 3px solid rgb(0, 0, 62);
+    }
+    .mb-top-items{
+      text-decoration: none;
+      color: white;
+    }
+    .mb-top-items>h4>i{
+      color: yellow;
+      font-size: 20px;
+      margin-right: 5px;
+    }
+    .mb-top-items>h4{
+      margin-left: 10px;
+    }
+    .mb-btm-items:focus{
+      border-top: 4px solid rgb(3, 183, 255);
+    }
+    /* ---------sign in from--------------- */
+    .dog{
+      display: none;
+    }
+    .sign-bg{
+      margin: 0;
+      border-radius: 0px;
+      padding: 0;
+      height: 100vh;
+    }
+    .mb-nav-none{
+      display: none;
     }
   }
   

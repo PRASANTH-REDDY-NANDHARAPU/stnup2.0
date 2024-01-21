@@ -23,7 +23,7 @@ const AppLayout=()=>{
   return (
     <Provider store={appStore}>
      <Navbar/>
-     <MbNav/>
+     {/* <MbNav/> */}
      <Outlet/>
   </Provider>
   )
